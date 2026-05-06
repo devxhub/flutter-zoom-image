@@ -2,8 +2,10 @@
 
 A Flutter package for interactive image zooming. Two widgets — one for full-image gesture zoom, one for a draggable in-place magnifier tile. Zero dependencies beyond Flutter itself.
 
-![Standard Zoom](images/standard-zoom.png)
-![Tile Zoom](images/tile_zoom.png)
+<p align="center">
+  <img src="images/standard-zoom.png" width="40%"/>
+  <img src="images/tile_zoom.png" width="40%" />
+</p>
 ---
 
 ## Widgets at a glance
