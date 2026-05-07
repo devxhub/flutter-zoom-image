@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1778145977999,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1778147157312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-## 0.0.1\n+## 1.0.0\n \n * Initial release\n * `ZoomImage` widget with scroll zoom, pinch-to-zoom, pan/drag, double-tap zoom\n * `ZoomImageController` for programmatic zoom and pan\n"
                 }
             ],
             "date": 1778145977999,
