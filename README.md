@@ -3,8 +3,8 @@
 A Flutter package for interactive image zooming. Two widgets — one for full-image gesture zoom, one for a draggable in-place magnifier tile. Zero dependencies beyond Flutter itself.
 
 <p align="center">
-  <img src="https://github.com/devxhub/flutter-zoom-image/blob/main/images/standard-zoom.png" width="40%"/>
-  <img src="https://github.com/devxhub/flutter-zoom-image/blob/main/images/tile_zoom.png" width="40%" />
+  <img src="https://raw.githubusercontent.com/devxhub/flutter-zoom-image/main/images/standard-zoom.png" width="40%"/>
+  <img src="https://raw.githubusercontent.com/devxhub/flutter-zoom-image/main/images/tile_zoom.png" width="40%"/>
 </p>
 ---
 
@@ -33,8 +33,7 @@ import 'package:flutter_zoom_image/flutter_zoom_image.dart';
 ## ZoomImage
 
 Full interactive zoom for any image. Scroll, pinch, pan and double-tap all work out of the box. An on-screen +/−/reset strip and a zoom % badge are included and fully optional.
-
-<img src="https://github.com/devxhub/flutter-zoom-image/blob/main/images/standard_zoom_1.png" width="40%" />
+![Standard Zoom](https://raw.githubusercontent.com/devxhub/flutter-zoom-image/main/images/standard_zoom_1.png)
 
 ### Basic
 
@@ -133,8 +132,7 @@ print(controller.offset);
 
 A draggable magnifier tile that sits on top of the image. Drag it anywhere — the region underneath is magnified in-place at the image's maximum pixel quality. The rest of the image stays at its normal display size. No second panel, no separate view.
 
-<img src="https://github.com/devxhub/flutter-zoom-image/blob/main/images/tile_zoom_1.png" width="40%" />
-
+![Tile Zoom](https://raw.githubusercontent.com/devxhub/flutter-zoom-image/main/images/tile_zoom_1.png)
 ### Basic
 
 ```dart
