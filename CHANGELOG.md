@@ -1,4 +1,4 @@
-## 1.0.0
+## 1.0.1
 
 * Initial release
 * `ZoomImage` widget with scroll zoom, pinch-to-zoom, pan/drag, double-tap zoom

@@ -2,7 +2,7 @@ name: flutter_zoom_image
 description: >-
   Flutter image zoom package. Provides ZoomImageWidget (standard images) and
   DeepZoomImageWidget (DZI tile pyramid) with shared gesture + controller layer.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/yourname/zoom_image
 
 environment:
