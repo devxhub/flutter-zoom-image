@@ -1,0 +1,18 @@
+{
+    "sourceFile": "CHANGELOG.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1778145977999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1778145977999,
+            "name": "Commit-0",
+            "content": "## 0.0.1\n\n* Initial release\n* `ZoomImage` widget with scroll zoom, pinch-to-zoom, pan/drag, double-tap zoom\n* `ZoomImageController` for programmatic zoom and pan\n* On-screen +/−/reset control strip\n* Zoom % badge\n* Supports `NetworkImage`, `AssetImage`, `MemoryImage`, `FileImage`\n"
+        }
+    ]
+}

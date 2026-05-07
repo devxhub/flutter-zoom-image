@@ -1,0 +1,18 @@
+{
+    "sourceFile": "pubspec.yaml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1778145344155,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1778145344155,
+            "name": "Commit-0",
+            "content": "name: flutter_zoom_image\ndescription: >-\n  Flutter image zoom package. Provides ZoomImageWidget (standard images) and\n  DeepZoomImageWidget (DZI tile pyramid) with shared gesture + controller layer.\nversion: 0.0.1\nhomepage: https://github.com/yourname/zoom_image\n\nenvironment:\n  sdk: '>=3.0.0 <4.0.0'\n  flutter: '>=3.10.0'\n\ndependencies:\n  flutter:\n    sdk: flutter\n  http: ^1.2.0          # only used by DeepZoomImageWidget tile fetching\n\ndev_dependencies:\n  flutter_test:\n    sdk: flutter\n  flutter_lints: ^3.0.0"
+        }
+    ]
+}
