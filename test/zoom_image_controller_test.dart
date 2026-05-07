@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_zoom_image/zoom_image.dart';
+import 'package:flutter_zoom_image/flutter_zoom_image.dart';
 
 void main() {
   group('ZoomImageController', () {

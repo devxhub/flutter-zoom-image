@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../zoom_image.dart';
+import '../flutter_zoom_image.dart';
 import 'zoom_controller.dart';
 import 'zoom_gesture_handler.dart';
 
@@ -320,11 +320,11 @@ class _DefaultError extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Icon(Icons.broken_image_outlined,
-            size: 48, color: Colors.white.withOpacity(0.6)),
+            size: 48, color: Colors.white.withValues(alpha: 0.6)),
         const SizedBox(height: 8),
         Text(
           'Failed to load image',
-          style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 13),
+          style: TextStyle(color: Colors.white.withValues(alpha: 0.6), fontSize: 13),
         ),
       ],
     ),

@@ -106,12 +106,6 @@ class TileGridPainter extends CustomPainter {
       final img = loader.getTile(parentTile);
       if (img == null) continue;
 
-      // Compute the sub-rect of the parent tile that covers this child tile.
-      final subCols = descriptor.colsAtLevel(level);
-      final subRows = descriptor.rowsAtLevel(level);
-      final pCols = descriptor.colsAtLevel(parentLevel);
-      final pRows = descriptor.rowsAtLevel(parentLevel);
-
       // Fraction of the parent tile that this child covers.
       final srcW = img.width / factor.toDouble();
       final srcH = img.height / factor.toDouble();

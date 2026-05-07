@@ -28,8 +28,6 @@ class ZoomGestureHandler extends StatefulWidget {
 class _State extends State<ZoomGestureHandler> {
   double _startZoom = 1.0;
   Offset _lastFocal = Offset.zero;
-  bool _isScaling = false;
-
   Size get _size {
     final box = context.findRenderObject() as RenderBox?;
     return box?.size ?? Size.zero;
@@ -38,7 +36,6 @@ class _State extends State<ZoomGestureHandler> {
   void _onScaleStart(ScaleStartDetails d) {
     _startZoom = widget.controller.zoom;
     _lastFocal = d.localFocalPoint;
-    _isScaling = d.pointerCount > 1;
   }
 
   void _onScaleUpdate(ScaleUpdateDetails d) {
@@ -61,7 +58,7 @@ class _State extends State<ZoomGestureHandler> {
     widget.onPanChanged?.call(widget.controller.offset);
   }
 
-  void _onScaleEnd(ScaleEndDetails d) => _isScaling = false;
+  void _onScaleEnd(ScaleEndDetails d) {}
 
   void _onDoubleTap() {
     widget.controller.handleDoubleTap(

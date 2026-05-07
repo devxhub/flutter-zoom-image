@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_zoom_image/zoom_image.dart';
+import 'package:flutter_zoom_image/flutter_zoom_image.dart';
 
 
 void main() => runApp(const App());
